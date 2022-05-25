@@ -1,0 +1,27 @@
+.playerBox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    &__section{
+        & h2{
+            margin: 10px 0px 10px 10px;
+            color: #60656b;
+        }
+        
+
+        &--donators{
+            position: relative;
+            height: 30%;
+        }
+
+        &--veriAccounts{
+            position: relative;
+            height: 70%;
+        }
+
+
+    }
+}

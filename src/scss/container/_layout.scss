@@ -1,0 +1,41 @@
+.layout{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+
+    &__header{
+        position: relative;
+        height: 10%;
+        width: 100%;
+    }
+
+    &__body{
+        position: relative;
+        height: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        &__section{
+            border: 2px black solid;
+            position: relative;
+            width: 100%;
+            &--contentBox{
+                flex:1;
+                background: #171c26;
+            }
+            &--chatBox{
+                flex:4;
+                background-color: #1d232f;
+            }
+            &--playerBox{
+                flex:1;
+                background: #171c26;
+            }
+        }
+    }
+}
+
+
